@@ -7,7 +7,7 @@ export default {
 	kit: {
 		adapter: static_adapter(),
 		target: '#root',
-		paths: {base: '/felt-template'}, // for GitHub pages -- delete this line for top-level domains
+		paths: {base: '/earworm'},
 		files: {assets: 'src/static'},
 		vite: {
 			ssr: {

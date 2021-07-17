@@ -1,40 +1,24 @@
-# felt-template
+# earworm🪱
 
-> a static website template with [SvelteKit](https://github.com/sveltejs/kit),
-> [Gro](https://github.com/feltcoop/gro), and [Felt](https://github.com/feltcoop/felt)
+> audio tools
 
-deployed: <https://feltcoop.github.io/felt-template>
+> **work in progress**: pre-alpha
 
-## usage
+deployed: <https://ryanatkn.github.io/earworm>
 
-If you're logged into GitHub, click "Use this template" above or clone with
-[`degit`](https://github.com/Rich-Harris/degit):
+## develop
 
 ```bash
-npx degit feltcoop/felt-template#main cooltoy
-cd cooltoy
 npm i
 # then
 npm run dev
 # or
-gro dev
+gro dev # optionally install Gro globally: `npm i -g @feltcoop/gro`
 ```
 
-To make it your own, change `felt-template` to your project name in the following files:
-
-- [`package.json`](package.json)
-- [`svelte.config.js`](svelte.config.js)
-- [`src/routes/__layout.svelte`](src/routes/__layout.svelte)
-- [`src/routes/index.svelte`](src/routes/index.svelte)
-
-Then run `npm i` to update `package-lock.json`.
-
-Optionally add a license file and `package.json` value, like `"license": "MIT"`.
-
-See [SvelteKit](https://github.com/sveltejs/kit)
-and [Vite](https://github.com/vitejs/vite) for more.
-
 ## build
+
+Output production builds to `dist/`:
 
 ```bash
 npm run build
@@ -44,8 +28,7 @@ gro build
 
 ## deploy
 
-[Deploy the static frontend](https://github.com/feltcoop/gro/blob/main/src/docs/deploy.md)
-to the `deploy` branch, e.g. for GitHub Pages:
+Push the frontend build to the `deploy` branch, e.g. for GitHub Pages:
 
 ```bash
 npm run deploy
@@ -67,4 +50,6 @@ gro deploy
 [@lukeed\/\*](https://github.com/lukeed)
 & [more](package.json)
 
-## [🐦](https://wikipedia.org/wiki/Free_and_open-source_software)
+## license [🐦](https://wikipedia.org/wiki/Free_and_open-source_software)
+
+public domain ([The Unlicense](license))

@@ -1,9 +1,43 @@
-/* global stylesheet imported by `src/routes/__layout.svelte */
-
-/*
+/* upstream to Felt as much as possible */
 
 :root {
-  --some_stylish_property: 100%;
+	/* TODO delete when upgraded */
+	--faded_3: 38%;
 }
 
-*/
+h1 {
+	color: var(--pink);
+	font-size: var(--font_size_xl3);
+	font-weight: 100;
+	line-height: 1.1;
+	margin: 20px 0;
+}
+
+/* TODO this is assuming a horizontal layout, which isn't great */
+label {
+	display: flex;
+	align-items: stretch;
+}
+/* TODO delete all of this and do normal labels */
+.label-text {
+	display: flex;
+	align-items: center;
+	border-top: var(--input_border_width) var(--input_border_style) var(--input_border_color);
+	border-bottom: var(--input_border_width) var(--input_border_style) var(--input_border_color);
+	padding: 0 var(--spacing_md);
+}
+
+/* TODO this is a problem in Felt, `disabled` shouldn't be used like tihs */
+/* button:disabled.selected { */
+button.selected {
+	border-left-style: var(--button_border_style_selected);
+	border-right-style: var(--button_border_style_selected);
+	z-index: 1;
+	color: var(--active_color);
+	/* TODO experimental, not sure about these patterns */
+	--button_border_color: var(--active_color);
+	--border_color: var(--active_color);
+	--outline_width: var(--outline_width_2);
+	--outline_style: var(--border_style_2);
+	--outline_color: var(--interactive_color_hover);
+}

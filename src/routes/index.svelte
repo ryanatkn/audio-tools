@@ -1,20 +1,14 @@
 <script lang="ts">
-	import Markup from '@feltcoop/felt/ui/Markup.svelte';
-
-	import Mreows from '$lib/ui/Mreows.svelte';
+	import Audio_Recording_Studio from '$lib/audio/Audio_Recording_Studio.svelte';
 </script>
 
-<main class="column">
-	<Markup>
-		<h1>felt-template</h1>
-		<Mreows />
-	</Markup>
+<main>
+	<h1>earworm🪱</h1>
+	<Audio_Recording_Studio />
 </main>
 
 <style>
 	main {
-		text-align: center;
-		/* TODO should these be on `.column` ? */
 		display: flex;
 		flex-direction: column;
 		align-items: center;
