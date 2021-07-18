@@ -27,6 +27,7 @@
 	todos
 
 	- fix mic so output doesn't go to speakers
+	- add musical note input for oscillators (using MIDI, and keep raw frequency as an option)
 	- input_channel gain
 	- clip sequencer
 	- musical note inputs
