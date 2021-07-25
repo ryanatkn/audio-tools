@@ -13,4 +13,4 @@
 	start={input_channel.play}
 	stop={input_channel.pause}
 />
-<Mic_Controls />
+<Mic_Controls {input_source} />

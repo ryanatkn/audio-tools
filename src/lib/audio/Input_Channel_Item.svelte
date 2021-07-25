@@ -57,6 +57,6 @@
 	.source-controls {
 		width: 350px;
 		display: flex;
-		align-items: center;
+		align-items: stretch;
 	}
 </style>

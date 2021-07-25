@@ -13,4 +13,9 @@
 		flex-direction: column;
 		align-items: center;
 	}
+	h1 {
+		color: var(--pink);
+		text-align: center;
+		margin: var(--spacing_md) 0;
+	}
 </style>

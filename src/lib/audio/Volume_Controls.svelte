@@ -39,7 +39,7 @@
 <style>
 	.volume-control {
 		display: flex;
-		align-items: center;
+		align-items: stretch;
 		justify-content: center;
 	}
 
