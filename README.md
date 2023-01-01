@@ -1,10 +1,10 @@
-# earworm🪱
+# audio-tools🪱
 
 > audio tools
 
 > **work in progress**: pre-alpha
 
-deployed: <https://ryanatkn.github.io/earworm>
+deployed: <https://ryanatkn.github.io/audio-tools>
 
 ## develop
 

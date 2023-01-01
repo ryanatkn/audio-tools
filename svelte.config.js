@@ -7,7 +7,7 @@ export default {
 	kit: {
 		adapter: static_adapter(),
 		target: '#root',
-		paths: {base: '/earworm'},
+		paths: {base: '/audio-tools'},
 		files: {assets: 'src/static'},
 		vite: {
 			ssr: {

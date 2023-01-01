@@ -3,7 +3,7 @@
 </script>
 
 <main>
-	<h1>earworm🪱</h1>
+	<h1>audio-tools🪱</h1>
 	<Audio_Recording_Studio />
 </main>
 
